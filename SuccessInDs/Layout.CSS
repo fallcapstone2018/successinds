@@ -1,0 +1,130 @@
+@import 'https://fonts.googleapis.com/css?family=Roboto|Suez+One';
+
+*{
+  box-sizing: border-box;
+}
+
+body {
+	background-color: lightgray;
+	margin:0;
+	padding: 0;
+	font-family: 'Roboto', sans-serif;
+}
+
+header{
+  background-color: #0b37aa;
+  color: white;
+  padding: .5em;
+    background-image: url("https://www.kent.edu/sites/default/files/kent_state_university%20Horizontal_124-White-cpm.png");
+  background-repeat: no-repeat;
+  text-align:center;
+  background-size: 200px;
+  background-position: 0% 35%;
+  border-bottom: 4px solid yellow;
+  background-image: fixed;
+}
+}
+.intro{
+  background-color: white;
+  color:black;
+  padding: 1em;
+
+}
+
+.filter{
+  padding: 1.5em 2em 1em 2em;
+  background-color: navy;
+  text-align:center;
+  }
+
+@media screen and (min-width: 650px){
+.filter li{
+  list-style: none;
+
+  color: white;
+  display: inline;
+  text-decoration: none;
+  padding: 1em;
+
+}
+}
+
+ul{
+  margin: 0;
+  padding: 0;
+
+}
+
+main{
+  padding: 0 2em 1em 2em;
+	margin: 0 auto;
+}
+
+.filter a{
+  text-decoration: none;
+	margin-bottom: 0emm;
+	display: inline-block;
+	color: white;
+	padding-bottom: 0em;
+	border-bottom: 2px solid transparent;
+	transition: .3s border-bottom;
+}
+
+
+.filter a:hover{
+  font-weight: bold;
+	color: white;
+	border-bottom: 3px solid;
+}
+@media screen and (min-width 650px){
+  first-row{
+    display:flex;
+  }
+}
+
+
+
+.box2{
+padding: 2em;
+	margin: .25em;
+	background-color: white;
+  justify-content: space-between;
+
+
+}
+.second-row{
+  justify-content:space-between;
+}
+footer{
+  background-color: #0b37aa;
+  padding: 3em;
+  color: white;
+  text-align: center;
+  border-top: 4px solid gold;
+}
+
+.container-1{
+  justify-content: ;
+  display:flex;
+  padding: 10px;
+  width: 30%;
+}
+.container-1 div{
+  border: 1px solid black;
+}
+
+.box{
+	padding: 2em;
+	margin: .25em;
+	background-color: white;
+}
+@media screen and (min-width: 650px){
+	.first-row, .second-row{
+		display:flex;
+
+	}
+}
+.intro{
+ ;
+
+}
