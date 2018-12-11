@@ -324,7 +324,12 @@ em { color: #27cce9; }
 }
 
 .internhead{
-	font-size: 250%;
+	font-size: 4em;
+	padding-top: 20px;
+}
+.internwelcome{
+	font-size: 2em;
+	padding-top: 10px;
 }
 .interncontentwrap{
 	display: flex;
