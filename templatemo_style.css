@@ -323,19 +323,37 @@ em { color: #27cce9; }
 	width: 200px;
 }
 
+.internhead{
+	font-size: 250%;
+}
 .interncontentwrap{
 	display: flex;
 	align-content: center;
+	flex-direction: column;
+	justify-content: space-between;
+	padding-left: 20px;
+	padding-right: 20px;
 
 }
 .interncontent{
 	display: flex;
 	align-content: center;
 	flex-direction: column;
-	justify-content: space-around;
+	justify-content: space-between;
+	text-align: center;
 
 }
+.internbox{
+	display: flex;
+	align-content: center;
+	flex-direction: column;
+	justify-content: center;
+	padding-bottom: 20px;
+}
 
+.internlist{
+	list-style: none;
+}
 /* gallery */
 #gallery {
 		clear: both;
