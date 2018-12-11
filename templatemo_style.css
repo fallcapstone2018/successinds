@@ -491,3 +491,13 @@ em { color: #27cce9; }
 	color: #fff;
 }
 /* end of copyright */
+
+
+/* Flex container */
+.flex-container {
+  display: flex;
+}
+
+.flex-container > div {
+  margin: 20px;
+}
