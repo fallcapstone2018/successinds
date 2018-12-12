@@ -710,35 +710,27 @@ em { color: #27cce9; }
 }
 /*  Point at which dual column layout occurs.  Can change this number to anything. */
 
-@media screen and (min-width: 800px) {
-    main {
-        display: flex;
-        justify-content: space-between;
-				padding: 1em; /*This equally distributes columns on the left and the right  */
-    }
-  section {
-    width: 35%; /* Width of left column */
-  }
-  aside {
-    width: 60%; /* Width of right column */
+.container-1{
+display:flex;
 
-  }
+}
+.container-2{
+	display:flex;
+	justify-content: space-between;
 
 }
 
 
-@media screen and (max-width: 1000px) {
-  body {
-    padding: 1em;
-  }
-
-  .accordion {
-    width: 100%;
-  }
+.box1{
+	flex:1;
+	padding: 2em;
 }
 
-@media screen and (max-height: 450px) {
-  .sidenav {padding-top: 15px;}
-  .sidenav a {font-size: 18px;}
+.box2{
+	flex: 2;
+	padding: 2em;
 }
+.container-2box{
+padding: 2em;
 }
+.
