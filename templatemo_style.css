@@ -117,7 +117,6 @@ em { color: #27cce9; }
 	padding: 0 10px;
 	margin: auto;
 	background-color: #003976;
-	background-position: top;
 }
 #internship_header {
 	width: 950px;
@@ -245,6 +244,11 @@ em { color: #27cce9; }
 	margin: 0 auto;
 	padding: 10px;
 	text-align: center;
+}
+
+#templatemo_featured_content p {
+	font-size: 24px;
+	line-height: 40px;
 }
 
 
