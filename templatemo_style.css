@@ -10,6 +10,7 @@ body {
 	font-size: 13px;
 	line-height:1.5em;
 
+
 	/*background-color: #fff;
 	background-image: url(images/templatemo_body.jpg);
 	background-repeat: repeat-x;
@@ -624,6 +625,7 @@ em { color: #27cce9; }
   padding: 5em;
 } */
 
+
 .accordion {
   font-size: 1rem;
   width: 100%;
@@ -719,7 +721,9 @@ em { color: #27cce9; }
   }
   aside {
     width: 60%; /* Width of right column */
+
   }
+
 }
 
 
@@ -736,4 +740,5 @@ em { color: #27cce9; }
 @media screen and (max-height: 450px) {
   .sidenav {padding-top: 15px;}
   .sidenav a {font-size: 18px;}
+}
 }
