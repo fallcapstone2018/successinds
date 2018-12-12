@@ -9,6 +9,7 @@ body {
 	font-family: Georgia, "Times New Roman", Times, serif;
 	font-size: 13px;
 	line-height:1.5em;
+
 	/*background-color: #fff;
 	background-image: url(images/templatemo_body.jpg);
 	background-repeat: repeat-x;
@@ -609,6 +610,120 @@ em { color: #27cce9; }
   margin-left: 140px; /* Same width as the sidebar + left position in px */
   font-size: 28px; /* Increased text to enable scrolling */
   padding: 0px 10px;
+}
+
+/*Accordion / Concentrations CSS*/
+
+/*body {
+  font-size: 62.5%;
+  background: #dadada;
+  font-family: 'Open Sans', sans-serif;
+  line-height: 2;
+  padding: 5em;
+} */
+
+.accordion {
+  font-size: 1rem;
+  width: 100%;
+  margin: 0 auto;
+  border-radius: 5px;
+
+
+
+}
+
+.accordion-header,
+.accordion-body {
+  background: white;
+}
+
+.accordion-header {
+  padding: 1.5em 1.5em;
+  background: #002664;
+  text-transform: uppercase;
+  color: white;
+  cursor: pointer;
+  font-size: .8em;
+  letter-spacing: .1em;
+  transition: all .3s;
+}
+
+.accordion-header:hover {
+  background: #2D3D99;
+  position: relative;
+  z-index: 5;
+}
+
+.accordion-body {
+  background: #fcfcfc;
+  color: #3f3c3c;
+  display: none;
+
+}
+
+.accordion-body__contents {
+  padding: 1.5em 1.5em;
+  font-size: .85em;
+
+}
+
+.accordion__item.active:last-child .accordion-header {
+  border-radius: none;
+}
+
+.accordion:first-child > .accordion__item > .accordion-header {
+  border-bottom: 1px solid transparent;
+
+}
+
+.accordion__item > .accordion-header:after {
+
+  content: "\f3d8";
+  font-family: ion-ios-arrow-up;
+  font-size: 1.2em;
+  float: right;
+  position: relative;
+  top: -2px;
+  transition: .3s all;
+  transform: rotate(0deg);
+}
+
+.accordion__item.active > .accordion-header:after {
+  transform: rotate(-180deg);
+}
+
+.accordion__item.active .accordion-header {
+  background: #2D3D99;
+}
+
+.accordion__item .accordion__item .accordion-header {
+  background: #f1f1f1;
+  color: black;
+}
+/*  Point at which dual column layout occurs.  Can change this number to anything. */
+
+@media screen and (min-width: 800px) {
+    main {
+        display: flex;
+        justify-content: space-between; /*This equally distributes columns on the left and the right  */
+    }
+  section {
+    width: 35%; /* Width of left column */
+  }
+  aside {
+    width: 60%; /* Width of right column */
+  }
+}
+
+
+@media screen and (max-width: 1000px) {
+  body {
+    padding: 1em;
+  }
+
+  .accordion {
+    width: 100%;
+  }
 }
 
 @media screen and (max-height: 450px) {
