@@ -6,7 +6,7 @@ body {
 	margin: 0px;
 	padding: 0px;
 	color: #333;
-	font-family: Georgia, "Times New Roman", Times, serif;
+	font-family: 'Roboto', sans-serif;
 	font-size: 13px;
 	line-height:1.5em;
 
@@ -627,6 +627,7 @@ em { color: #27cce9; }
   width: 100%;
   margin: 0 auto;
   border-radius: 5px;
+	font-family: 'Open Sans', sans-serif;
 
 
 
@@ -649,9 +650,10 @@ em { color: #27cce9; }
 }
 
 .accordion-header:hover {
-  background: #2D3D99;
+  background: #EAAB00;
   position: relative;
   z-index: 5;
+
 }
 
 .accordion-body {
@@ -664,6 +666,7 @@ em { color: #27cce9; }
 .accordion-body__contents {
   padding: 1.5em 1.5em;
   font-size: .85em;
+
 
 }
 
