@@ -168,9 +168,10 @@ em { color: #27cce9; }
 	display: block;
 	text-align: left;
 	font-size: 14px;
-	color: #d7d3be;
+	color: white;
 	font-weight: normal;
-	margin-left: 5px;
+	margin-left: 1px;
+	padding-top: .4em;
 }
 #internship_header  #site_title a span {
 	display: block;
@@ -733,4 +734,3 @@ display:flex;
 .container-2box{
 padding: 2em;
 }
-.
