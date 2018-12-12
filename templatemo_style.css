@@ -108,7 +108,11 @@ em { color: #27cce9; }
 	color: #000;
 	background: url(images/templatemo_button_hover.png) no-repeat;
 }
-
+/* span kent blue */
+#kentColor
+{
+	color: #003976;
+}
 /* header */
 
 #templatemo_header {
@@ -214,7 +218,7 @@ em { color: #27cce9; }
 
 #templatemo_menu ul li a:hover,  #templatemo_menu ul li .current {
 	color: #292718;
-	background: url(images/templatemo_menu_hover.jpg) center top no-repeat;
+	background-color: #EAAB00; center top no-repeat;
 }
 
 #templatemo_menu ul .last {
@@ -261,6 +265,34 @@ em { color: #27cce9; }
 	width: 950px;
 	margin: 0 auto;
 	padding: 30px 10px;
+}
+
+#templatemo_resume_content_wrapper {
+	clear: both;
+	width: 950px;
+	margin: 0 auto;
+	padding: 30px 10px;
+}
+
+#templatemo_resume_content_wrapper p
+{
+	font-size: 20px;
+	line-height: 25px;
+}
+
+#templatemo_resume_content_wrapper p1
+{
+	font-size: 15px;
+	line-height: 25px;
+}
+
+
+
+
+#templatemo_resume_content_wrapper li
+{
+	font-size: 15px;
+	line-height: 25px;
 }
 
 #content_wo_sb {
@@ -327,6 +359,7 @@ em { color: #27cce9; }
 	width: 200px;
 }
 
+/* Internship */
 .internhead{
 
 }
@@ -338,8 +371,10 @@ em { color: #27cce9; }
 	align-content: center;
 	flex-direction: column;
 	justify-content: space-around;
-	margin: 0;
-	padding-right: 30px;
+	width: 950 px;
+	clear: both;
+	margin: 0 auto;
+	padding: 30px 10px;
 
 
 }
@@ -349,7 +384,10 @@ em { color: #27cce9; }
 	flex-direction: column;
 	justify-content: space-around;
 	text-align: center;
-
+	clear: both;
+	width: 950px;
+	margin: 0 auto;
+	padding: 30px 10px;
 }
 .internbox{
 	display: flex;
