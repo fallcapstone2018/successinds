@@ -4,7 +4,7 @@ force push
 */
 body {
 	margin: 0px;
-	padding: 0px;
+	padding: 0;
 	color: #333;
 	font-family: 'Roboto', sans-serif;
 	font-size: 13px;
@@ -187,6 +187,7 @@ em { color: #27cce9; }
 	float: right;
 	height: 90px;
 	display: inline-block;
+
 }
 
 #templatemo_menu ul {
@@ -207,18 +208,19 @@ em { color: #27cce9; }
 	height: 60px;
 	width: 120px;
 	padding-top: 30px;
-	font-size: 14px;
-	color: #d7d3be;
+	font-size: 17px;
+	color: white;
+	font-family: 'Open Sans', sans-serif;
 
 	text-align: center;
 	text-decoration: none;
-	font-weight: bold;
+	font-weight: none;
 	outline: none;
 	border: none;
 }
 
 #templatemo_menu ul li a:hover,  #templatemo_menu ul li .current {
-	color: #292718;
+	color: #white;
 	background-color: #EAAB00; center top no-repeat;
 }
 
@@ -628,6 +630,7 @@ em { color: #27cce9; }
   margin: 0 auto;
   border-radius: 5px;
 	font-family: 'Open Sans', sans-serif;
+	padding: 0;
 
 
 
@@ -708,7 +711,8 @@ em { color: #27cce9; }
 @media screen and (min-width: 800px) {
     main {
         display: flex;
-        justify-content: space-between; /*This equally distributes columns on the left and the right  */
+        justify-content: space-between;
+				padding: 1em; /*This equally distributes columns on the left and the right  */
     }
   section {
     width: 35%; /* Width of left column */
